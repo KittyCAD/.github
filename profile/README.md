@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/KittyCAD-helpful--repos-cyan" alt="Helpful Repos">
 
 - [Support](https://github.com/KittyCAD/support) or [support@kittycad.io](mailto:support@kittycad.io)
+- [CLI (Command Line Interface)](https://github.com/KittyCAD/cli)
 - [Documentation](https://github.com/KittyCAD/documentation)
 
 <img src="https://img.shields.io/badge/KittyCAD-github--actions-yellow" alt="Useful Github Actions">
