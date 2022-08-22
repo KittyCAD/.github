@@ -27,5 +27,3 @@
 - [kittycad.rs](https://github.com/KittyCAD/kittycad.rs)
 - [kittycad.ts](https://github.com/KittyCAD/kittycad.ts)
 <!-- end api-client list -->
-
-<img width="933" alt="KittyCAD_header" src="https://user-images.githubusercontent.com/19377312/185001016-fe8f0859-f03e-4a1c-82d1-ea23223ca852.png">
