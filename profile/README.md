@@ -9,7 +9,7 @@
 - [Support](https://github.com/KittyCAD/support) or [support@kittycad.io](mailto:support@kittycad.io)
 - [CLI (Command Line Interface)](https://github.com/KittyCAD/cli)
 - [Documentation](https://github.com/KittyCAD/documentation)
-- [Litterbox - Sample Scripts](https://github.com/KittyCAD/litterbox)
+<!-- - [Litterbox - Sample Scripts](https://github.com/KittyCAD/litterbox) -->
 
 <img src="https://img.shields.io/badge/KittyCAD-github--actions-yellow" alt="Useful Github Actions">
 
