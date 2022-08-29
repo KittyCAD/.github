@@ -1,2 +1,2 @@
-# .github-private
-Major links and specific repository pins for company org (aka this is our internal website hub)
+# .github
+🐱 Major links and helpful repository pins for KittyCAD 🐱
