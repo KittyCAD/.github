@@ -14,6 +14,7 @@
 <img src="https://img.shields.io/badge/KittyCAD-github--actions-yellow" alt="Useful Github Actions">
 
 <!-- start-autogen-list tag=github-action -->
+- [action-convert-directory](https://github.com/KittyCAD/action-convert-directory)
 - [action-install-cli](https://github.com/KittyCAD/action-install-cli)
 <!-- end-autogen-list -->
 
@@ -21,4 +22,7 @@
 
 <!-- start-autogen-list tag=api-client -->
 - [kittycad.go](https://github.com/KittyCAD/kittycad.go)
+- [kittycad.py](https://github.com/KittyCAD/kittycad.py)
+- [kittycad.rs](https://github.com/KittyCAD/kittycad.rs)
+- [kittycad.ts](https://github.com/KittyCAD/kittycad.ts)
 <!-- end-autogen-list -->
