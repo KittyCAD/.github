@@ -1,12 +1,9 @@
 name: auto add client libs
 
 on:
-  #schedule:
-  #  - cron: '30 5 * * *'
-  push:
-  pull_request:
+  schedule:
+   - cron: '30 5 * * *'
   workflow_dispatch:
-    inputs:
 
 jobs:
   add-client-libs:
