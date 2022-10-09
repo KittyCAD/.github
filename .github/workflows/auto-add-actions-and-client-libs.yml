@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 5
-      - uses: KittyCAD/ts-actions/autogen-readme-list@v0.2.7
+      - uses: KittyCAD/ts-actions/autogen-readme-list@v0.3.0
         id: update-readme
         with:
           github-token: ${{ secrets.GLOBAL_PAT }}
