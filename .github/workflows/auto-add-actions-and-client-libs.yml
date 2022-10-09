@@ -1,56 +1,23 @@
 name: auto add client libs
 
 on:
-  #schedule:
-  #  - cron: '30 5 * * *'
-  push:
+  schedule:
+   - cron: '30 5 * * *'
   workflow_dispatch:
-    inputs:
 
 jobs:
   add-client-libs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      with:
-        fetch-depth: 5
-
-      - name: grab and add
-        run: |
-          
-
-          // list all org repos
-
-
-          // list repo's tags
-          curl \
-  -H "Accept: application/vnd.github+json" \
-  -H "Authorization: token <TOKEN>" \
-  https://api.github.com/repos/OWNER/REPO/tags
-
-      - name: update the lines in the profile
-        id: profile-update
-        run: |
-          # find lines to insert the github actions string
-          action_start_idx = grep -n ${action_start_string} /profile/README.md
-          action_end_idx = grep -n ${action_end_string} /profile/README.md
-          # delete from start index to end index
-          sed -i.bak -e '${action_start_idx},${action_end_idx}d' /profile/README.md
-          # insert from start index
-          sed -i '${action_start_idx} a ${list_of_action_repo_links}' /profile/README.md
-         
-          # find lines to insert the api clients string
-          client_start_idx = grep -n ${client_start_string} /profile/README.md
-          client_end_idx = grep -n ${client_end_string} /profile/README.md
-          # delete from start index to end index
-          sed -i.bak -e '${client_start_idx},${client_end_idx}d' /profile/README.md
-          # insert from start index
-          sed -i '${client_start_idx} a ${list_of_client_repo_links}' /profile/README.md
-        env:
-          action_start_string: "<!-- start github-action list -->"
-          action_end_string: "<!-- end github-action list -->"
-          client_start_string: "<!-- start api-client list -->"
-          client_end_string: "<!-- end api-client list -->"
+        with:
+          fetch-depth: 5
+          token: ${{ secrets.GLOBAL_PAT }}
+      - uses: KittyCAD/ts-actions/autogen-readme-list@v0.3.0
+        id: update-readme
+        with:
+          github-token: ${{ secrets.GLOBAL_PAT }}
+          path: './profile/README.md'
 
       - name: Check for modified files
         id: git-check
