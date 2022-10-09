@@ -24,5 +24,4 @@
 - [kittycad.go](https://github.com/KittyCAD/kittycad.go)
 - [kittycad.py](https://github.com/KittyCAD/kittycad.py)
 - [kittycad.rs](https://github.com/KittyCAD/kittycad.rs)
-- [kittycad.ts](https://github.com/KittyCAD/kittycad.ts)
 <!-- end-autogen-list -->
