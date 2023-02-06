@@ -29,3 +29,7 @@
 - [kittycad.rs](https://github.com/KittyCAD/kittycad.rs)
 - [kittycad.ts](https://github.com/KittyCAD/kittycad.ts)
 <!-- end-autogen-list -->
+
+<img src="https://img.shields.io/badge/tools--and--databases-violet" alt="Open-Source">
+
+- [Material Properties Database](https://github.com/KittyCAD/material-properties)
