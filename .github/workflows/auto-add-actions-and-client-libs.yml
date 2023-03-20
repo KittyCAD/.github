@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 5
           token: ${{ secrets.GLOBAL_PAT }}
-      - uses: KittyCAD/ts-actions/autogen-readme-list@v0.6.6
+      - uses: KittyCAD/ts-actions/autogen-readme-list@v0.6.7
         id: update-readme
         with:
           github-token: ${{ secrets.GLOBAL_PAT }}
