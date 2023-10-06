@@ -23,7 +23,7 @@ jobs:
         id: git-check
         run: echo ::set-output name=modified::$(if git diff-index --ignore-submodules --quiet HEAD --; then echo "false"; else echo "true"; fi)
       
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         if: steps.git-check.outputs.modified == 'true'
         with:
           commit_message: "🔨 DRAGON THOSE PUBLIC CLIENTS AND ACTIONS ⚙️"
