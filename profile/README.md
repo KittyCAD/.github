@@ -24,6 +24,7 @@
 - [CLI (Command Line Interface)](https://github.com/KittyCAD/cli)
 - [Documentation](https://github.com/KittyCAD/documentation)
 - [Litterbox - Sample Code](https://github.com/KittyCAD/litterbox)
+- [KCL Samples](https://github.com/KittyCAD/kcl-samples)
 
 ### Useful Github Actions
 
