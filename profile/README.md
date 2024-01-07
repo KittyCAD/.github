@@ -2,7 +2,7 @@
 
 ### Support
 
-- Make an issue in the [support repo](https://github.com/KittyCAD/support) or email your private inquiries to [support@kittycad.io](mailto:support@kittycad.io)
+- Make an issue in the [support repo](https://github.com/KittyCAD/support) or email your private inquiries to [support@zoo.dev](mailto:support@zoo.dev)
 
 ### Tools
 
