@@ -9,8 +9,7 @@
 - [Modeling App](https://github.com/KittyCAD/modeling-app)
 - [Text-to-CAD UI](https://github.com/KittyCAD/text-to-cad-ui)
 - [Text-to-CAD Discord Bot](https://github.com/KittyCAD/text-to-cad-discord-bot)
-- [Text-to-CAD Discord Bot](https://github.com/KittyCAD/text-to-cad-discord-bot)
-- [Text-to-CAD Diff Viewer Extension](https://github.com/KittyCAD/diff-viewer-extension)
+- [CAD Diff Viewer Extension](https://github.com/KittyCAD/diff-viewer-extension)
 
 ### API Client Libs
 
