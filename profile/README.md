@@ -3,6 +3,7 @@
 ### Support
 
 - [Community Forum](https://community.zoo.dev/)
+- [Discord](https://discord.gg/JQEpHR7Nt2)
 
 ### Tools
 
