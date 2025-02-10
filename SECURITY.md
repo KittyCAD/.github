@@ -10,6 +10,7 @@ This policy applies to any digital assets owned, operated, or maintained by Zoo.
 
 - Web services with domains matching *.zoo.dev or *.kittycad.io
 - The Zoo Modeling App
+- Open-source libraries and tools
 - GitHub repositories and continuous integration
 
 ### Out of scope services include:
@@ -41,7 +42,8 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 
 ## Contact & Official Channel
 
-Report vulnerabilities at https://github.com/KittyCAD/cvd/security/advisories/new
+Report general vulnerabilities at https://github.com/KittyCAD/cvd/security/advisories/new
+If you know that a specific open-source service, library, program or tool is affected then create an GitHub advisory in the relevant repository at https://github.com/KittyCAD/[REPOSITORY]/security/advisories/new
 
 Please make sure that you include the following information:
 - Which service is affected?
