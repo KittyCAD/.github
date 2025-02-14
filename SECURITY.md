@@ -27,7 +27,6 @@ When working with us, according to this policy, you can expect us to:
 - Work to remediate discovered vulnerabilities in a timely manner, within our operational constraints; and
 - Extend Safe Harbor for your vulnerability research that is related to this policy.
 
-
 ## Our Expectations
 
 In participating in our vulnerability disclosure program in good faith, we ask that you:
@@ -42,7 +41,7 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 
 ## Contact & Official Channel
 
-Report general vulnerabilities at https://github.com/KittyCAD/cvd/security/advisories/new
+Report vulnerabilities at our Offical Channel https://github.com/KittyCAD/cvd/security/advisories/new 
 If you know that a specific open-source service, library, program or tool is affected then create an GitHub advisory in the relevant repository at https://github.com/KittyCAD/[REPOSITORY]/security/advisories/new
 
 Please make sure that you include the following information:
@@ -53,12 +52,12 @@ Please make sure that you include the following information:
 - What is the impact and risk for Zoo?
 
 Reports will be answered within 72 hours. If you have not received an
-answer within that time frame, feel free to contact us again.
+answer within that time frame, contact us at security@zoo.dev.
 
 We aim to patch critical vulnerabilities within 5 days.
 However, fixing complex vulnerabilities may take up to 90 days.
 
-The email security@zoo.dev must only be used for general security related inquires.
+The email security@zoo.dev must only be used for security related inquires, questions about ongoing vulnerability disclosures, or inquires about this security policy.
 Do not use this email to disclose security vulnerabilities.
 
 ## Classification of Vulnerabilities
@@ -92,7 +91,7 @@ When conducting vulnerability research, according to this policy, we consider th
 
 You are expected, as always, to comply with all applicable laws. If legal action is initiated by a third party against you, and you have complied with this policy, we will take steps to make it known that your actions were conducted in compliance with this policy.
 
-If at any time you have concerns or are uncertain whether your security research is consistent with this policy, please submit a report through one of our Official Channels before going any further.
+If at any time you have concerns or are uncertain whether your security research is consistent with this policy, please reach out to security@zoo.dev before going any further.
 
 > Note that the Safe Harbor applies only to legal claims under the control of the organization participating in this policy, and that the policy does not bind independent third parties.
 
