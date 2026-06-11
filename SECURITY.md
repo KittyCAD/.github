@@ -31,13 +31,20 @@ When working with us, according to this policy, you can expect us to:
 
 In participating in our vulnerability disclosure program in good faith, we ask that you:
 
+- Follow our AI policy below.
 - Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience;
 - Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of live user production services;
 - Limit security scanner requests to five per second;
 - Provide us a reasonable amount of time (at least 90 days from the initial report) to resolve the issue before you disclose it publicly;
 - Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope;
 - You should only interact with test accounts you own or with explicit permission from the account holder; and
-- Do not engage in extortion.  
+- Do not engage in extortion.
+
+## AI Policy
+
+Reports that are primarily generated, discovered, or identified through the use of artificial intelligence (AI) tools are not eligible for bounty payments.
+
+As large language models (LLMs) become increasingly effective at identifying common security patterns, they are also more likely to surface issues that are already known, previously identified, or actively tracked by our security team. For this reason, AI-assisted reports describing vulnerabilities with a severity rating of Low or Informational may be acknowledged and closed without further direct action if the issue is already known to us and being tracked internally.
 
 ## Contact & Official Channel
 
